@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.on_lineschool.FormularioFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/tvDia"/>
+
+    <EditText
+
+        android:id="@+id/tvTurma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Turma e Ano"
+        />
+
+    <EditText
+        android:id="@+id/tvDisciplina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Disciplina"
+        android:layout_below="@id/tvTurma"/>
+
+    <Spinner
+        android:id="@+id/spTipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDisciplina"
+        android:layout_marginTop="16dp">
+
+    </Spinner>
+
+    <ListView
+        android:id="@+id/lvInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bconfirma"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/bconfirma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spTipo"
+        android:text="Confirmar"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        />
+
+</RelativeLayout>

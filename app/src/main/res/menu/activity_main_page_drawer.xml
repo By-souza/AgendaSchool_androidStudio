@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_noticias"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Notícias" />
+        <item
+            android:id="@+id/nav_horarios"
+            android:icon="@android:drawable/ic_lock_idle_alarm"
+            android:title="Horários" />
+        <item
+            android:id="@+id/nav_calendario"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="Calendário" />
+        <item
+            android:id="@+id/nav_avaliacoes"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Avaliações" />
+    </group>
+
+    <item android:title="Área pessoal">
+        <menu>
+            <item
+                android:id="@+id/nav_sobre"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="Sobre" />
+        </menu>
+    </item>
+
+</menu>
